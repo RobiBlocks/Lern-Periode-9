@@ -37,16 +37,16 @@
   - [ ] Rechtschreibeprüfung
 
 
-✍️ Heute habe ich... (50-100 Wörter)
+✍️ Heute habe ich das Grundgerüst für meine Bewerbungsseite angelegt. Es gibt einen Projects, CV und Hobbys Abschnitt. Allerdings ist das CSS noch Mangelware. Nach einer Pause habe ich mich im Internet gesucht. Man findet mich aber nur in einem Magazin und auf der Seite meines Sportvereins. Zum Abschluss haben wir uns Begriffe für das Referenzschreiben überlegt und ich habe meine eigenes Schreiben geschrieben. (63 Wörter)
 
 ☝️ Vergessen Sie nicht, einen ersten Entwurf Ihrer Start-Seite in der entsprechenden Ablage hochzuladen.
 
 ## 28.2
 
-- [ ] CV zusammenstellen
 - [ ] LinkedIn-Profil erstellen / ausputzen
 - [ ] GitHub-Profil professionalisieren (`readme.md`)
-- [ ] Start-Seite: Was ist das dringendste AP?
+- [ ] Ich verschiebe den Header nach oben, den Article nach links und die Section nach rechts mithilfe von Grid. Im Article werden die Titel Projekte, CV und Skills Portfolio in abgerundeten Boxen zu sehen sein. Zudem ordne ich die Projekte, das CV und mein Skills Portfolio in abgerundeten Rechtecken.
+- [ ] Ich erstelle ein Farbschema, speichere die Farben in Variablen und passe die Webseite daran an. Zudem lade ich die Bilder hoch.
 
 ✍️ Heute habe ich... (50-100 Wörter)
 
