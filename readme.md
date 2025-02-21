@@ -5,8 +5,24 @@
 ## Grob-Planung
 
 1. Welche Projekte haben Sie bereits auf Ihrem github, welche Sie verlinken könnten?
+   - Blue-Dragon
+   - Snake
+   - ScissorsRockPaper
+   - Hangman
+
 2. Wie sieht Ihr *skill portfolio* aus? Was können Sie bereits, und was wäre etwas, das Sie lernen möchten?
+   - C#
+   - HTML
+   - CSS
+   - JavaScript
+   - PHP
+   - SQL
+   - Powershell
+
 3. Was wäre ein gutes Projekt für die zweite Hälfte dieser Lern-Periode?
+   - Notizen App inkl. Währungsrechner und Taschenrechner mit Phyton
+     - Notizen SQLite-Datenbank speichern
+     - Währung soll durch API umgerechnet werden
 
 ## 21.2
 
@@ -38,7 +54,6 @@
 
 ## 7.3
 
-- [ ] 
 - [ ] CV-Seite erstellen
 - [ ] Start-Seite 1
 - [ ] Start-Seite 2
