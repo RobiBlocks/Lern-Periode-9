@@ -56,21 +56,21 @@
 
 ## 7.3
 
-- [ ] Ich mache für jede Programmiersprache, die ich kann, einen kleinen Abschnitt (zwei nebeneinander, mehrere untereinander) inkl. Logo (evtl. Hover-Effekt)
-- [ ] OFF: Ich skizziere die Unterseiten meiner Bewerbungsseite (Projects, Curriculum Vitae, Skills Portfolio)
-- [ ] Ich implementiere die Unterseiten meiner Bewerbungsseite (Projects, Curriculum Vitae, Skills Portfolio)
-- [ ] Rückmeldung geben.
+- [x] OFF: Ich skizziere die Unterseiten meiner Bewerbungsseite (Projects, CV, Skills Portfolio)
+- [ ] Ich implementiere die Unterseiten meiner Bewerbungsseite (Projects, CV, Skills Portfolio)
+- [x] Ich mache für jede Programmiersprache, die ich kann, einen kleinen Abschnitt (zwei nebeneinander, mehrere untereinander) inkl. Logo (evtl. Hover-Effekt)
+- [x] Rückmeldung geben.
 
-✍️ Heute habe ich... (50-100 Wörter)
+✍️ Heute habe ich zuerst die Unterseiten auf Papier skizziert. Die Unterseite CV habe ich weggelassen, weil ich dort einen Zeitstrahl von oben nach unten mit Animation machen möchte. Danach habe ich die Unterseiten implementiert. Leider habe ich viel Zeit für die Projects gebraucht, weshalb ich die anderen beiden Unterseiten noch nicht programmieren konnte. Nach der Pause habe ich für jede Programmiersprache ein Rechteck hinzugefügt, wodurch meine Seite bunter wirken sollte. Zum Abschluss habe ich noch zwei "Bewerbungen" der Klasse bewertet. (80 Wörter)
 
 ☝️ Vergessen Sie nicht, die fertige Version Ihrer Start-Seite in der entsprechenden Ablage hochzuladen.
 
 ## 14.3
 
-- [ ] ...
-- [ ] ...
-- [ ] ...
-- [ ] ...
+- [ ] Ich richte VSCode für Python ein, damit ich die Python Scripts per Button ausführen kann.
+- [ ] Ich baue mit Tinker ein einfaches GUI, also die Grundstruktur der Notizen-App
+- [ ] Ich speichere die Notizen in einer SQLite Datenbank
+- [ ] Rückmeldung geben und Rückmeldung umsetzen
 
 ✍️ Heute habe ich... (50-100 Wörter)
 
