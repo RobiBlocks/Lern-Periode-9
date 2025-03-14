@@ -67,11 +67,20 @@
 
 ## 14.3
 
-- [ ] Ich baue mit Tinker ein einfaches GUI und zeige ein Tamagotchi an
-- [ ] Ich implementiere Lebens-, Energie- und Hungerbalken
-- [ ] Ich programmiere Knöpfe, mit welchen man das Tamagotchi füttern kann
-- [ ] Ich geb Rückmeldung und setze die erhalten Rückmeldung um
+- [x] Ich baue mit Tinker ein einfaches GUI und zeige ein Tamagotchi an
+- [x] Ich implementiere Lebens-, Energie- und Hungerbalken
+- [x] Ich programmiere Knöpfe, mit welchen man das Tamagotchi füttern kann
+- [x] Ich gebe Rückmeldung und setze die erhalten Rückmeldung um
 
-✍️ Heute habe ich... (50-100 Wörter)
+✍️ Heute habe ich mit meinem Tamagotchi App in Python gestartet. Zuerst habe ich ein Video zu Tkinter angeschaut und habe ein GUI mit Fenster, Titel und Knöpfen erstellt. Um das Bild des Tamagotchis und die Lebensbalken zu implementieren habe ich im Internet recherchiert und eine Lösung gefunden. Nun steht das Grundgerüst meiner Tamagotchi App. Zum Abschluss habe ich noch einem Mitschüler eine Rückmeldung zu seiner Bewerbungsseite gegeben. (67 Wörter)
 
 ☝️ Vergessen Sie nicht, einen ersten Code Ihres Projektes in dieser Ablage hochzuladen.
+
+## 21.3
+
+- [ ] 1
+- [ ] 2
+- [ ] 3
+- [ ] 4
+
+✍️ Heute habe ich... (50 - 100 Wörter)
