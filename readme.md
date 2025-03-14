@@ -78,9 +78,9 @@
 
 ## 21.3
 
-- [ ] 1
-- [ ] 2
-- [ ] 3
-- [ ] 4
+- [ ] Es soll die Zeit voranschreiten, sodass das Tamagotchi alle par Sekunden trauriger, hungriger und müder wird. (time und threading)
+- [ ] Das Tamgotchi soll freude, hungrig, müde und normal ausdrücken, mithilfe verschiedener Bilder. (pillow oder tkinter Canvas)
+- [ ] Das Tamagotchi soll plötzlich krank oder einen Hungeranfall bekommen. (random)
+- [ ] Wenn das tamagotchi sehr unglücklich, sehr hungrig oder sehr müde ist soll sich das Spiel beenden inkl. Game Over Bildschirm. (messagebox)
 
 ✍️ Heute habe ich... (50 - 100 Wörter)
