@@ -67,10 +67,10 @@
 
 ## 14.3
 
-- [ ] Ich richte VSCode für Python ein, damit ich die Python Scripts per Button ausführen kann.
-- [ ] Ich baue mit Tinker ein einfaches GUI, also die Grundstruktur der Notizen-App
-- [ ] Ich speichere die Notizen in einer SQLite Datenbank
-- [ ] Rückmeldung geben und Rückmeldung umsetzen
+- [ ] Ich baue mit Tinker ein einfaches GUI und zeige ein Tamagotchi an
+- [ ] Ich implementiere Lebens-, Energie- und Hungerbalken
+- [ ] Ich programmiere Knöpfe, mit welchen man das Tamagotchi füttern kann
+- [ ] Ich geb Rückmeldung und setze die erhalten Rückmeldung um
 
 ✍️ Heute habe ich... (50-100 Wörter)
 
