@@ -39,8 +39,6 @@
 
 ✍️ Heute habe ich das Grundgerüst für meine Bewerbungsseite angelegt. Es gibt einen Projects, CV und Hobbys Abschnitt. Allerdings ist das CSS noch Mangelware. Nach einer Pause habe ich mich im Internet gesucht. Man findet mich aber nur in einem Magazin und auf der Seite meines Sportvereins. Zum Abschluss haben wir uns Begriffe für das Referenzschreiben überlegt und ich habe meine eigenes Schreiben geschrieben. (63 Wörter)
 
-☝️ Vergessen Sie nicht, einen ersten Entwurf Ihrer Start-Seite in der entsprechenden Ablage hochzuladen.
-
 ## 28.2
 
 - [x] LinkedIn-Profil erstellen / ausputzen
@@ -50,9 +48,7 @@
 
 ✍️ Heute habe ich als erstes ein LinkedIn-Profil erstellt. Danach habe ich mir einen Aufhänge-Satz überlegt. Mein Ergebnis: "R in Robin stands for reliable IT solutions". Anschliessend habe ich meine Schulen und Skills hinterlegt. Ich folge nun einigen wichtigen Firmen und ein paar Menschen, die ich kenne. Dann habe ich ein readme.md auf github erstellt und dieses bearbeitet. Es muss nochmals überarbeitet werden. Nach einer Pause habe ich mich um meine Bewerbungsseite gekümmert. Sie hat nun eine sinnvolle Unterteilung und stimmungsvolle Farben. Ich habe ausserdem eine navbar und einige hover-Effekte hinzugefügt. (90 Wörter)
 
-👉 LinkedIn-Profil: https://www.linkedin.com/in/robin-m%C3%BCller-696782353
-
-☝️ Vergessen Sie nicht, die angepasste Version Ihrer Start-Seite in der entsprechenden Ablage hochzuladen.
+👉 LinkedIn Profil: https://www.linkedin.com/in/robin-m%C3%BCller-696782353
 
 ## 7.3
 
@@ -63,8 +59,6 @@
 
 ✍️ Heute habe ich zuerst die Unterseiten auf Papier skizziert. Die Unterseite CV habe ich weggelassen, weil ich dort einen Zeitstrahl von oben nach unten mit Animation machen möchte. Danach habe ich die Unterseiten implementiert. Leider habe ich viel Zeit für die Projects gebraucht, weshalb ich die anderen beiden Unterseiten noch nicht programmieren konnte. Nach der Pause habe ich für jede Programmiersprache ein Rechteck hinzugefügt, wodurch meine Seite bunter wirken sollte. Zum Abschluss habe ich noch zwei "Bewerbungen" der Klasse bewertet. (80 Wörter)
 
-☝️ Vergessen Sie nicht, die fertige Version Ihrer Start-Seite in der entsprechenden Ablage hochzuladen.
-
 ## 14.3
 
 - [x] Ich baue mit Tinker ein einfaches GUI und zeige ein Tamagotchi an
@@ -74,13 +68,28 @@
 
 ✍️ Heute habe ich mit meinem Tamagotchi App in Python gestartet. Zuerst habe ich ein Video zu Tkinter angeschaut und habe ein GUI mit Fenster, Titel und Knöpfen erstellt. Um das Bild des Tamagotchis und die Lebensbalken zu implementieren habe ich im Internet recherchiert und eine Lösung gefunden. Nun steht das Grundgerüst meiner Tamagotchi App. Zum Abschluss habe ich noch einem Mitschüler eine Rückmeldung zu seiner Bewerbungsseite gegeben. (67 Wörter)
 
-☝️ Vergessen Sie nicht, einen ersten Code Ihres Projektes in dieser Ablage hochzuladen.
-
-## 21.3
+## 25.3
 
 - [x] Es soll die Zeit voranschreiten, sodass das Tamagotchi alle par Sekunden trauriger, hungriger und müder wird. (time und threading)
-- [ ] !Das Tamgotchi soll freude, hungrig, müde und normal ausdrücken, mithilfe verschiedener Bilder. (pillow und tkinter Canvas)
-- [ ] Das Tamagotchi soll plötzlich krank oder einen Hungeranfall bekommen. (random)
-- [ ] Wenn das tamagotchi sehr unglücklich, sehr hungrig oder sehr müde ist soll sich das Spiel beenden inkl. Game Over Bildschirm. (messagebox)
+- [ ] Das Tamgotchi soll freude, hungrig, müde und normal ausdrücken, mithilfe verschiedener Bilder. (pillow und tkinter Canvas)
+- [x] Das Tamagotchi soll plötzlich krank oder einen Hungeranfall bekommen. (random)
+- [x] Wenn das tamagotchi sehr unglücklich, sehr hungrig oder sehr müde ist soll sich das Spiel beenden inkl. Game Over Bildschirm. (messagebox)
+
+✍️ Heute habe ich implementiert, dass das Tamagotchi traurig, hungrig und müder wird. Allerings habe ich gar kein time und threading benötigt, da dies auch mit tkinter funktioniert. Danach habe ich versucht das Tamagotchi Emotionen auszudrücken, aber es hat nicht funktioniert. Deshalb habe ich nach einer kleinen Pause verschiedene Anfälle programmiert, welche bestimmte Werte schnell reduzieren. Zum Abschluss habe ich eine Textbox implementiert, welche angezeigt wird, wenn das Tamagotchi stribt, also ein Wert auf 0 geht. (75 Wörter)
+
+## 28.3
+
+- [ ] Im Hintergrund soll ein Bild mit einer Eisscholle zu sehen sein
+- [ ] Zwischenstände sollen in einer Datei gespeichert werden können
+- [ ] Zwischenstände sollen aus einer Datei geladen werden können
+- [ ] Wenn man das Tamagotchi gefüttert wird soll ein Fisch verbraucht werden
+
+✍️ Heute habe ich... (50 - 100 Wörter)
+
+## 4.4
+
+- [ ] Ich erstelle einen Button, den man drücken kann um ein Minsiel zu starten, welches einem neue Fische gibt
+- [ ] Das Tamagotchi soll Töne von sich geben können wenn es gestreichelt, gefüttert und ins Bett gelegt wird
+- [ ] 
 
 ✍️ Heute habe ich... (50 - 100 Wörter)
