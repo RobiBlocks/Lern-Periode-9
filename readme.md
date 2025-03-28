@@ -82,14 +82,13 @@
 - [x] Ich skizziere das Interface und überlege mir wie ich die startGame() Funktion unterteilen kann / Im Hintergrund soll ein Bild mit einer Eisscholle zu sehen sein
 - [x] Zwischenstände sollen in einer Datei gespeichert werden können
 - [x] Zwischenstände sollen aus einer Datei geladen werden können
-- [ ] Wenn man das Tamagotchi gefüttert wird soll ein Fisch verbraucht werden
+- [ ] Man kann Fische angeln und wenn das Tamagotchi gefüttert wird sollen Fische verbraucht werden (bis nächstes Mal fertig machen)
 
-✍️ Heute habe ich... (50 - 100 Wörter)
+✍️ Heute habe ich zuerst überlegt, wo die Buttons "Speichern", "Laden" und "Angeln" hinkommen sollen und wie ich den Code besser in Funktionen aufteilen kann. Danach wollte ich ein Bild in den Hintergrund machen, allerdings schaffte ich das nicht, weshalb ich eine einfache Farbe in den Hintergrund gemacht habe. Im Anschluss habe ich die Funktionen "Speichern" und "Laden" implementiert. Nach der Pause habe ich die geplante Aufteilung der Funktionen umgesetzt und mit den Fischen gestartet. Die "Angeln" Funktionen ist implementiert und die "Füttern" Funktion ist angepasst, dass Fische verbraucht werden. Es fehlt noch die Anzeige des Fischvorrats und das Speichern und Laden des Fischvorrats in der txt-Datei. (106 Wörter)
 
 ## 4.4
 
-- [ ] Ich erstelle einen Button, den man drücken kann um ein Minsiel zu starten, welches einem neue Fische gibt
-- [ ] Das Tamagotchi soll Töne von sich geben können wenn es gestreichelt, gefüttert und ins Bett gelegt wird
-- [ ] 
+- [ ] Ich speichere bzw. lade den Fischvorrat in bzw. aus der txt-Datei
+- [ ] Ich mache Refactoring passe Variablennamen und verbessere die Struktur meines Codes
 
 ✍️ Heute habe ich... (50 - 100 Wörter)
