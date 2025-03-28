@@ -79,7 +79,7 @@
 
 ## 28.3
 
-- [ ] Im Hintergrund soll ein Bild mit einer Eisscholle zu sehen sein
+- [ ] Ich skizziere das Interface und überlege mir wie ich die startGame() Funktion unterteilen kann / Im Hintergrund soll ein Bild mit einer Eisscholle zu sehen sein
 - [ ] Zwischenstände sollen in einer Datei gespeichert werden können
 - [ ] Zwischenstände sollen aus einer Datei geladen werden können
 - [ ] Wenn man das Tamagotchi gefüttert wird soll ein Fisch verbraucht werden
