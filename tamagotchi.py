@@ -12,7 +12,8 @@ window = tk.Tk()
 buttonFrame = tk.Frame(window)
 bg_color = "#87CEEB"
 
-fishStorage = 50
+fishStorage = tk.StringVar()
+fishStorage.set("50")
 
 def startGame():
     createWindow()
@@ -35,8 +36,8 @@ def startGame():
     window.mainloop()
 
 def gameCycle():
-    generateIllness()
     lowerStats()
+    isDead()
     window.after(1000, gameCycle)
 
 def createWindow():
@@ -70,7 +71,7 @@ def createFrame():
     buttonFrame.configure(bg=bg_color)
 
 def createButtons():
-    buttonSave = tk.Button(buttonFrame, text="Speichern", font=('Arial', 12), height=6, command=save)
+    buttonSave = tk.Button(buttonFrame, text="Speichern und Beenden", font=('Arial', 12), height=6, command=save)
     buttonSave.grid(row=0, column=0, sticky="we")
 
     buttonLoad = tk.Button(buttonFrame, text="Laden", font=('Arial', 12), height=6, command=load)
@@ -87,6 +88,9 @@ def createButtons():
 
     buttonSleep = tk.Button(buttonFrame, text="Schlafen", font=('Arial', 12), bg="#008cff", height=8, command=sleep)
     buttonSleep.grid(row=5, column=0, sticky="we")
+
+    labelFish = tk.Label(buttonFrame, textvariable=fishStorage, font=('Arial', 12), bg="#008cff", height=8)
+    labelFish.grid(row=0, column=3, sticky="we")
 
 def createBars():
     global LoveProgressbar
@@ -107,22 +111,30 @@ def load():
     LoveProgressbar['value'] = savedata[0].strip()
     HungerProgressbar['value'] = savedata[1].strip()
     TirednessProgressbar['value'] = savedata[2].strip()
+    new_value = savedata[3].strip()
+    fishStorage.set(str(new_value))
     savefile.close()
 
 def save():
     savefile = open('savefile.txt','w')
-    savedata = f"{LoveProgressbar['value']}\n{HungerProgressbar['value']}\n{TirednessProgressbar['value']}"
+    savedata = f"{LoveProgressbar['value']}\n{HungerProgressbar['value']}\n{TirednessProgressbar['value']}\n{fishStorage.get()}"
     savefile.write(savedata)
     savefile.close()
+    sys.exit()
 
 def pet():
     addValueToProgressbar(LoveProgressbar, 15)
 
 def feed():
     global fishStorage
-    addValueToProgressbar(HungerProgressbar, 20)
-    fishStorage -= 20
-    print(fishStorage)
+    if int(fishStorage.get()) - 20 < 0:
+        messagebox.showwarning(title="Nachricht", message="Du hast nicht genug Futter")
+    elif HungerProgressbar["value"] + 20 > 100:
+        messagebox.showwarning(title="Nachricht", message="Dein Pinguin ist bereits satt")
+    else:
+        addValueToProgressbar(HungerProgressbar, 20)
+        newFishStorage = int(fishStorage.get()) - 20
+        fishStorage.set(str(newFishStorage))
 
 def sleep():
     messagebox.showinfo(title="Nachricht", message="Dein Pinguin ist eingeschlafen")
@@ -139,17 +151,18 @@ def removeValueFromProgressbar(progressbar, removeValue):
     value = progressbar["value"] - removeValue
     progressbar["value"] = value
 
-def lowerStats():
+def isDead():
     if LoveProgressbar["value"] == 0:
         messagebox.showerror(title="Tod", message="Dein Pinguin ist wegen Liebesentzug gestroben!")
-        sys.exit()  # Beendet das Skript
-
+        sys.exit()
     elif HungerProgressbar["value"] == 0:
         messagebox.showerror(title="Tod", message="Dein Pinguin ist verhungert!")
+        sys.exit()
     elif TirednessProgressbar["value"] == 0:
         messagebox.showerror(title="Tod", message="Dein Pinguin ist durch Müdigkeit gestroben!")
+        sys.exit()
 
-def generateIllness():
+def lowerStats():
     # 1 - Einsamkeitssanfall
     # 2 - Hungeranfall
     # 3 - Müdigkeitsanfall
@@ -176,8 +189,8 @@ def earnFish():
     addFish = random.randint(1, 10)
     while addFish == 1 or addFish == 2 or addFish == 4 or addFish == 6 or addFish == 8 or addFish == 9:
         addFish = random.randint(1, 10)
-    fishStorage += addFish
-    print(fishStorage)
+    new_value = int(fishStorage.get()) + addFish
+    fishStorage.set(str(new_value))
 
 def shortcut(event):
     if event.state == 12 and event.keysym == "p":
