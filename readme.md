@@ -106,3 +106,9 @@
 - [x] Ich mache Refactoring passe Variablennamen und verbessere die Struktur meines Codes
 
 ✍️ Heute habe ich mich zuerst um die Anzeige der Fische gekümmert. Diese ist nun oben rechts links vom Button "Angeln" zu sehen. Anschliessend, habe ich mich dem Speichern des Fischvorrats zugewandt. Allerdings hat es jedes Mal PY_INT0 angezeigt. Nach einigem rumprobieren habe ich bemerkt, dass ich den Fehler schon lange behoben hatte, es aber nicht mitbekommen habe, weil der Error in der txt-Datei gespeichert wurde. Durch diesen Fehler hatte ich nur noch wenig Zeit zur Verfügung um Refactoring durchführen. (79 Wörter)
+
+# Reflexion
+
+Was habe ich gelernt?
+In dieser Lernperiode habe ich wichtige Bibliotheken von Python kennengelernt, unteranderem tkinter, pillow und random. Am ersten Tag habe ich mich voll auf tkinter konzentriert und gelernt, wie ich damit ein gutes GUI erstellen kann. Danach habe ich pillow und random angeschaut und gelernt wie ich Bilder laden kann und zufällige Zahlen generieren kann. Anschliessend habe ich Daten in einer txt-Datei speichern lassen und die Daten dann wieder ausgelesen. Zum Schluss habe ich noch Refactoring betrieben.
+Es war gut, dass ich schon am ersten Tag dieses Projektes, einen groben Plan gemacht habe, wann ich was machen werde. Dadurch wurde das Projekt pünktlich fertig. Erwähnenswerte Probleme hatte ich eigentlich keine, nur habe ich manchmal zu oft zu ChatGPT gegriffen. In der nächsten LP möchte ich meine ChatGPT Anfragen verringern. Projektideen für die nächste LP habe ich noch keine.
