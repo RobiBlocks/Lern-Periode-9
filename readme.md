@@ -1,8 +1,12 @@
 # Lern-Periode 9
 
-21.2 bis 4.4
+## Fertiges Projekt
+
+![Tamagotchi.gif](Tamagotchi.gif)
 
 ## Grob-Planung
+
+21.2 bis 4.4
 
 1. Welche Projekte haben Sie bereits auf Ihrem github, welche Sie verlinken könnten?
    - Blue-Dragon
