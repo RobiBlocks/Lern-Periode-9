@@ -12,7 +12,7 @@
   - Durch den Knopf Angeln bekommt man eine zufällige Anzahl Fische (Zahl zwischen drei und zehn).
   - Um den Pinguin zu füttern braucht man mindestens 20 Fische auf Vorrat.
 
-![tamagotchi.gif](tamagotchi.gif)
+![Tamagotchi](tamagotchi.gif)
 
 ## Grob-Planung
 
