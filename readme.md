@@ -2,7 +2,17 @@
 
 ## Fertiges Projekt
 
-![Tamagotchi.gif](Tamagotchi.gif)
+- Grundprinzip
+  - In diesem Tamagotchi Spiel muss man sich um einen Pinguin kümmern.
+  - Mit den Knöpfen links kann man seinen Pinguin streicheln, füttern und schlafen legen.
+  - Wenn der Pinguin traurig, hungrig oder zu müde ist, dann stirbt er.
+
+- Fische
+  - Wenn der Pinguin gefüttert wird, verbraucht man Fische, die einem oben rechts angezeigt werden.
+  - Durch den Knopf Angeln bekommt man eine zufällige Anzahl Fische (Zahl zwischen drei und zehn).
+  - Um den Pinguin zu füttern braucht man mindestens 20 Fische auf Vorrat.
+
+![tamagotchi.gif](tamagotchi.gif)
 
 ## Grob-Planung
 
@@ -92,7 +102,7 @@
 
 ## 4.4
 
-- [ ] Ich speichere bzw. lade den Fischvorrat in bzw. aus der txt-Datei
-- [ ] Ich mache Refactoring passe Variablennamen und verbessere die Struktur meines Codes
+- [x] Ich speichere bzw. lade den Fischvorrat in bzw. aus der txt-Datei
+- [x] Ich mache Refactoring passe Variablennamen und verbessere die Struktur meines Codes
 
-✍️ Heute habe ich... (50 - 100 Wörter)
+✍️ Heute habe ich mich zuerst um die Anzeige der Fische gekümmert. Diese ist nun oben rechts links vom Button "Angeln" zu sehen. Anschliessend, habe ich mich dem Speichern des Fischvorrats zugewandt. Allerdings hat es jedes Mal PY_INT0 angezeigt. Nach einigem rumprobieren habe ich bemerkt, dass ich den Fehler schon lange behoben hatte, es aber nicht mitbekommen habe, weil der Error in der txt-Datei gespeichert wurde. Durch diesen Fehler hatte ich nur noch wenig Zeit zur Verfügung um Refactoring durchführen. (79 Wörter)
